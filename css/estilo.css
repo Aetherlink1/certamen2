@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jersey+10&display=swap');
 *{
     box-sizing: border-box;
 }
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Bebas Neue", sans-serif;
     margin: 0;
 }
 /*----------------Estilos Base------------------*/
@@ -37,13 +39,13 @@ h1,h2,h3,h4,h5{
 }
 .logo{
     font-size: 1.9em;
-    color: #de423a;
+    color: #a3c8e8;
     padding: 10px;
-    font-family: 'Sacramento', cursive;
+    font-family: "Bebas Neue", sans-serif;
         
 }
 .main-header__contactInfo__phone{
-    background:#de423a;
+    background:#a3c8e8;
     color: #fff;
     padding: 10px;
     margin: 0;
@@ -131,10 +133,10 @@ h1,h2,h3,h4,h5{
     
 }
 .menu__link:hover{
-     background-color: #DE423A;
+     background-color: #a3c8e8;
 }
 .menu__link--select{
-    background-color: #DE423A;
+    background-color: #a3c8e8;
     
 }
 .mostrar{
@@ -176,7 +178,7 @@ h1,h2,h3,h4,h5{
 
 /*----------------Estilos Principales------------------*/
 .group--color .container{
-	background-color: #DE423A;
+	background-color: #a3c8e8;
 	padding: 10px;
 	text-align: center;
 	
@@ -184,7 +186,7 @@ h1,h2,h3,h4,h5{
 .main__title{
 	margin: 15px 0;
 	font-size: 2.8em;
-	font-family: 'Sacramento',cursive;
+	font-family: "Jersey 10", sans-serif;
 	
 }
 .column__title{
@@ -199,14 +201,14 @@ h1,h2,h3,h4,h5{
 	text-align: center;
 	text-decoration: none;
 	width: 120px;
-	background: #DE423A;
+	background: #a3c8e8;
 	color: #fff;
 	padding:10px;
 	margin: 10px auto;
 	
 }
 .group__title{
-	font-family:'Sacramento',cursive;
+	font-family: "Bebas Neue", sans-serif;
 	text-align: center;
 	font-weight: bold;
 	font-size: 1.8em;
@@ -231,7 +233,7 @@ h1,h2,h3,h4,h5{
 }
 .today-special__price{
 	font-size: 1.5em;
-	color: #DE423a;
+	color: #c268d6;
 	font-weight: bold;
 }
 
@@ -398,22 +400,24 @@ h1,h2,h3,h4,h5{
 	}
 }
 
+/*----------------Estilos agregados nuevos------------------*/
 
+.carrusel{
+	display: flex;
+	flex-wrap: nowrap;
+	overflow: scroll;
+}
 
+.elemento{
+	flex: 1 0 auto;
+	margin: 0 40px;
+	width: 1000px;
+	height: 600px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.elemento1{
+	flex: 1 0 auto;
+	margin: 0 40px;
+	width: 450px;
+	height: 650px;
+}
